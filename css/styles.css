@@ -1,0 +1,181 @@
+@font-face {
+	font-family: "Florencesans";
+	src: url("font/Florsn01.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Daisy";
+	src: url("font/daisy.ttf") format("truetype");
+}
+
+body{
+	width: 100%;
+	margin: auto;
+}
+
+#main{
+
+	border-top: solid 5px #669999;
+	border-bottom: solid 50px #669999;
+	height: 2300px;
+}
+
+#hr{
+	width: 100%;
+	height: 3%;
+	background-color:#669999;
+	color: #669999;
+	margin-top: 7%;
+	border: none;
+	position: absolute;
+}
+
+#top{
+ 	margin-top: 2%;
+}
+
+#logo{
+	width: 15%;
+	z-index: 0;
+	position: relative;
+	margin-left: 43%;
+}
+
+#navigation{
+	margin-top: 2%;
+	font-family: "Daisy";
+	font-size: 2.5em;
+}
+
+#hrnav{
+	width: 85%;
+	height: 5px;
+	background-color: #669999;
+	color: #669999;
+	border: none;
+	z-index: 0;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 8%;
+}
+
+#par{
+	font-size: 10px;
+}
+
+nav ul{
+	background-color: white;
+}
+	
+#navigation nav ul li{
+	list-style: none;
+	height: 100px;
+	width: 100px;
+	background-color: #ffffff;
+	border-radius: 1000px;
+	border:solid 5px #669999;
+}
+
+#navigation nav ul li a{
+	color: #669999;
+}
+
+#navigation nav ul li a:hover{
+	color: #669999;
+	text-decoration: none;
+}
+
+#description{
+	font-family: "Florencesans";
+}
+
+#descripcion{
+	background-color: #669999;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-family: "Florencesans";
+	-webkit-box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+	-moz-box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+	box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+	z-index: -1;
+	margin-top: 50%;
+}
+
+#descripcion a{
+	color: #ffffff;
+}
+
+#descripcion a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#fluyendo{
+	margin-left: -35px;
+}
+
+#urgente{
+	background-color: #669999;
+	border: solid 2px #ffffff;
+	color: #ffffff;
+	font-family: "Florencesans";
+	-webkit-box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+	-moz-box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+	box-shadow: 10px 0px 5px -1px rgba(0,0,0,0.40);
+}
+
+#urgente a{
+	color: #ffffff;
+}
+
+#urgente a:hover{
+	text-decoration: none;
+}
+
+#nos{
+	margin-top: 5%;
+	font-family: "Florencesans";
+	width: 100%
+	font-size: 1em;
+	color: #ffffff;
+}
+
+#us{
+	width: 85%;
+	height: 150px;
+	background-color: #669999;
+	color: #669999;
+	border: none;
+	z-index: 0;
+	position: absolute;
+	margin-top: 20px;
+
+}
+
+#info{
+	width: 55%;
+	margin-left: 10%;
+	position: relative;
+	margin-top: 5px;
+}
+
+#info h1{
+	font-size: 2em;
+}
+
+#info p{
+	margin-top: -5px;
+}
+
+#vec{
+	margin-left: 70%;
+	margin-top: -30px;
+	position: absolute;
+	border: solid 10px #669999;
+	border-radius: 1000px;
+	background: #ffffff;
+}
+
+#flex{
+	display: inline-flex;
+}
