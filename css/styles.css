@@ -48,7 +48,7 @@ body{
 }
 
 #hrnav{
-	width: 85%;
+	width: 80%;
 	height: 5px;
 	background-color: #669999;
 	color: #669999;
@@ -111,7 +111,7 @@ nav ul{
 }
 
 #fluyendo{
-	margin-left: -35px;
+	margin-left: 20%;
 }
 
 #urgente{
@@ -168,14 +168,11 @@ nav ul{
 }
 
 #vec{
-	margin-left: 70%;
-	margin-top: -30px;
+	margin-left: 80%;
+	margin-top: -100px;
 	position: absolute;
 	border: solid 10px #669999;
 	border-radius: 1000px;
 	background: #ffffff;
-}
-
-#flex{
-	display: inline-flex;
+	width: 18%;
 }
